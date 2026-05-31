@@ -7,6 +7,7 @@
     "maintainers": [ "Tefnut" ],
     "description": "Brings a little bit of that retro-futuristic class to the Cataclysm. Guns, monsters, craftable items, mutations, food, drinks, some locations and even more. Stuff from the Core Region, all the way to the Commonwealth.",
     "category": "content",
+    "obsolete": true,
     "dependencies": [ "bn" ]
   }
 ]

@@ -7,6 +7,7 @@
     "category": "content",
     "authors": [ "pisskop" ],
     "version": "5.7.2M_UO 0.E",
+    "obsolete": true,
     "//": "For the CDDA Launcher Program.",
     "path": ""
   },

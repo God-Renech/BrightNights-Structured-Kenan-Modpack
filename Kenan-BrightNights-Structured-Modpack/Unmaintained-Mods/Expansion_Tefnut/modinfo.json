@@ -7,6 +7,7 @@
     "maintainers": [ "Tefnut" ],
     "description": "A relatively large miscellaneous vanilla friendly additions mod which includes new guns, armor, food, mutations, professions, even new monsters. Setting overhaul to one of my own design.",
     "category": "items",
+    "obsolete": true,
     "dependencies": [ "bn" ]
   }
 ]

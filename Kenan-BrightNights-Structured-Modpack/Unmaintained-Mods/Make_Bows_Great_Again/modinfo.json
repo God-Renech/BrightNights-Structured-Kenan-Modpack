@@ -6,6 +6,7 @@
     "authors": [ "Mrsecretguy1/Kenan", "Axema Vales" ],
     "description": "Rebalances vanilla bows and crossbows and makes them stronger via increasing damage multiplier and armor penetration.",
     "category": "rebalance",
+    "obsolete": true,
     "dependencies": [ "bn" ]
   }
 ]

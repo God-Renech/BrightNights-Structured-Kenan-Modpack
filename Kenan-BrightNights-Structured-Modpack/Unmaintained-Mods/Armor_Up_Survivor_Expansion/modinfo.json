@@ -7,6 +7,7 @@
     "maintainers": [ "DanteTorn" ],
     "description": "A few extra bits of Survivor-grade armor.",
     "category": "items",
+    "obsolete": true,
     "dependencies": [ "bn" ]
   }
 ]
