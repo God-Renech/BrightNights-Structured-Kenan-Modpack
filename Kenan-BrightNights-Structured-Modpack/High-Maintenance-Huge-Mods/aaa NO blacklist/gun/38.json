@@ -34,7 +34,7 @@
     "ammo": "38",
     "dispersion": 420,
     "durability": 4,
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "sling", 1 ], [ "mechanism", 2 ], [ "rail", 1 ], [ "underbarrel", 1 ] ],
     "magazines": [ [ "38", [ "hipoint38mag", "hipoint38carmag", "hipoint38extmag" ] ] ]
   }

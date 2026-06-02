@@ -15,7 +15,7 @@
     "dispersion": 180,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -92,7 +92,7 @@
     "ammo": [ "762" ],
     "dispersion": 160,
     "durability": 8,
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "sling", 1 ] ],
     "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
