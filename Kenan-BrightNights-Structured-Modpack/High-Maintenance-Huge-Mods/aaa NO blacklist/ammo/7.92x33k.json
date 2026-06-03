@@ -6,6 +6,7 @@
     "weight": "30 g",
     "volume": "60 ml",
     "price": "2 USD",
+    "price_postapoc": "6 USD",
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",

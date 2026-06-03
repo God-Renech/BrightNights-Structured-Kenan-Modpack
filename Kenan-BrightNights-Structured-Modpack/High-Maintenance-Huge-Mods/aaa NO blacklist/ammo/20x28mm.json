@@ -6,6 +6,7 @@
     "weight": "115 g",
     "volume": "30 ml",
     "price": "8000 USD",
+    "price_postapoc": "40 USD",
     "material": [ "steel", "powder" ],
     "symbol": "=",
     "color": "green",

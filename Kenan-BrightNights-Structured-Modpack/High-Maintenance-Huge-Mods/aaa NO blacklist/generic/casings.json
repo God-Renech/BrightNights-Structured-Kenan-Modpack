@@ -33,17 +33,5 @@
     "material": "brass",
     "symbol": "=",
     "color": "yellow"
-  },
-  {
-    "id": "300blk_casing",
-    "type": "GENERIC",
-    "category": "spare_parts",
-    "name": { "str": "300 blackout casing" },
-    "description": "A casing from a spent 300 blackout cartridge",
-    "weight": "3 g",
-    "volume": "4ml",
-    "material": "brass",
-    "symbol": "=",
-    "color": "yellow"
   }
 ]
