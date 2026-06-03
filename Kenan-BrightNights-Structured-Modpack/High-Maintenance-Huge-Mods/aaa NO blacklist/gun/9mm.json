@@ -36,7 +36,7 @@
     "dispersion": 500,
     "durability": 8,
     "modes": [ [ "DEFAULT", "full-auto", 3 ] ],
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "built_in_mods": [ "folding_stock" ],
     "magazines": [ [ "9mm", [ "rak_9mm_15", "rak_9mm_15" ] ] ]
   }

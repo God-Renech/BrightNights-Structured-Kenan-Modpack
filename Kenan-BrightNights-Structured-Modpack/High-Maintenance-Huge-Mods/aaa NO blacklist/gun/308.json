@@ -21,7 +21,7 @@
     "bashing": 10,
     "ammo": "308",
     "durability": 7,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "magazines": [ [ "308", [ "falmag", "falbigmag" ] ] ]
   },
@@ -41,7 +41,7 @@
     "ammo": "308",
     "dispersion": 160,
     "durability": 8,
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "magazines": [ [ "308", [ "falmag", "falbigmag" ] ] ]
   }
 ]

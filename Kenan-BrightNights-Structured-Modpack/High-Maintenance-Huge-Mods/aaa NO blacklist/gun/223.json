@@ -18,7 +18,7 @@
     "dispersion": 160,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "built_in_mods": [ "folding_stock" ],
     "valid_mod_locations": [
       [ "acessories", 2 ],
@@ -91,7 +91,7 @@
     "ammo": "223",
     "dispersion": 140,
     "durability": 5,
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "sling", 1 ] ],
     "magazines": [
       [
@@ -131,7 +131,7 @@
     "dispersion": 600,
     "durability": 5,
     "modes": [ [ "DEFAULT", "full auto", 30 ] ],
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "valid_mod_locations": [ [ "barrel", 1 ], [ "accessories", 4 ], [ "sling", 1 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "muzzle", 1 ] ],
     "magazines": [
       [
@@ -180,7 +180,7 @@
     "dispersion": 130,
     "durability": 5,
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "built_in_mods": [ "xm29launcher", "oicwscope" ],
     "valid_mod_locations": [ [ "muzzle", 1 ], [ "accessories", 4 ], [ "mechanism", 1 ], [ "sling", 1 ] ],
     "magazines": [
@@ -220,7 +220,7 @@
     "ammo": [ "223", "300blk" ],
     "dispersion": 160,
     "durability": 4,
-    "barrel_length": 1,
+    "barrel_volume": 1,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "valid_mod_locations": [
       [ "muzzle", 1 ],
