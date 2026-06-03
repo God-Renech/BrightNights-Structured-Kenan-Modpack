@@ -7,6 +7,7 @@
     "maintainers": [ "Tefnut", "Jolmar7" ],
     "description": "A gigantic expansion mod for Fallout New England. Adds a variety of Fallout themed mobs, including raiders, supermutants, robots along with tons of locations, including different vaults, outposts, factories, caves, camps, stations, towns with mobs, npcs with missions to the world.",
     "category": "content",
+    "obsolete": true,
     "dependencies": [ "fallout" ]
   }
 ]
