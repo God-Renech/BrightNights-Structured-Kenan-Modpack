@@ -8,6 +8,7 @@
     "weight": "1500 g",
     "volume": "2 L",
     "price": "200 USD",
+    "price_postapoc": "20 USD",
     "to_hit": -2,
     "bashing": 10,
     "material": [ "steel" ],
