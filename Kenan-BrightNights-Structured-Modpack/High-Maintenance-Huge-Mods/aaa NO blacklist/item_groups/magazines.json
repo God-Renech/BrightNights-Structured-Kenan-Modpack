@@ -3,22 +3,22 @@
     "type": "item_group",
     "id": "mags_pistol_common",
     "items": [
-      [ "hipoint38mag", 50 ],
-      [ "hipoint38carmag", 45 ],
-      [ "hipoint38extmag", 20 ],
-      [ "hipoint9mag", 50 ],
-      [ "hipoint9carmag", 45 ],
-      [ "hipoint9extmag", 20 ],
-      [ "hipoint40mag", 30 ],
+      [ "hipoint38mag", 30 ],
+      [ "hipoint38carmag", 25 ],
+      [ "hipoint38extmag", 10 ],
+      [ "hipoint9mag", 30 ],
+      [ "hipoint9carmag", 25 ],
+      [ "hipoint9extmag", 10 ],
+      [ "hipoint40mag", 15 ],
       [ "hipoint40magext", 5 ],
-      [ "hipoint45mag", 25 ],
+      [ "hipoint45mag", 15 ],
       [ "hipoint45magext", 4 ]
     ]
   },
   {
     "type": "item_group",
     "id": "mags_rifle_rare",
-    "items": [ [ "stg44magold", 20 ], [ "stg44magnew", 20 ], [ "stgmag223", 40 ], [ "stgmag762", 30 ] ]
+    "items": [ [ "stg44magold", 15 ], [ "stg44magnew", 15 ], [ "stgmag223", 20 ], [ "stgmag762", 15 ] ]
   },
   {
     "type": "item_group",
