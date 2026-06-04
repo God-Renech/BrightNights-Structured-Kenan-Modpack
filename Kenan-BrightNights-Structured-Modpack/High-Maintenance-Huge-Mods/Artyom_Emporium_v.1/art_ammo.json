@@ -3,6 +3,7 @@
     "type": "AMMO",
     "id": ".380",
     "price": "50 USD",
+    "price_postapoc": "3 USD",
     "name": { "str": ".380", "str_pl": ".380" },
     "symbol": "=",
     "color": "light_gray",
@@ -26,6 +27,7 @@
     "id": ".380_casing",
     "category": "spare_parts",
     "price": "100 USD",
+    "price_postapoc": "1 USD",
     "name": { "str": ".380 casing" },
     "symbol": "=",
     "color": "yellow",
@@ -50,6 +52,7 @@
     "weight": "18 g",
     "volume": "250 ml",
     "price": "22 USD",
+    "price_postapoc": "2 USD",
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
@@ -68,6 +71,7 @@
     "id": ".303_casing",
     "category": "spare_parts",
     "price": "100 USD",
+    "price_postapoc": "1 USD",
     "name": { "str": ".303 casing" },
     "symbol": "=",
     "color": "yellow",
@@ -89,7 +93,7 @@
     "copy-from": ".303",
     "type": "AMMO",
     "name": { "str": "reloaded .303 British" },
-    "proportional": { "price": 0.7, "damage": { "damage_type": "bullet", "amount": 0.9 }, "dispersion": 1.1 },
+    "proportional": { "price": 0.7, "price_postapoc": 0.7, "damage": { "damage_type": "bullet", "amount": 0.9 }, "dispersion": 1.1 },
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
@@ -98,7 +102,7 @@
     "copy-from": "308",
     "type": "AMMO",
     "name": { "str": "Match 7.62x51mm" },
-    "proportional": { "price": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
+    "proportional": { "price": 2, "price_postapoc": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
     "extend": { "effects": [ "RECYCLED", "NEVER_MISFIRES" ] }
   },
   {
@@ -118,6 +122,7 @@
     "weight": "10 g",
     "volume": "250 ml",
     "price": "20 USD",
+    "price_postapoc": "2 USD",
     "count": 30,
     "stack_size": 30,
     "material": [ "steel", "powder" ],
@@ -136,7 +141,7 @@
     "copy-from": ".460",
     "type": "AMMO",
     "name": { "str": "reloaded .460 Rowland", "str_pl": "reloaded .460 Rowland" },
-    "proportional": { "price": 0.7, "damage": { "damage_type": "bullet", "amount": 0.9 }, "dispersion": 1.1 },
+    "proportional": { "price": 0.7, "price_postapoc": 0.7, "damage": { "damage_type": "bullet", "amount": 0.9 }, "dispersion": 1.1 },
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
@@ -148,6 +153,7 @@
     "weight": "18 g",
     "volume": "250 ml",
     "price": "22 USD",
+    "price_postapoc": "2 USD",
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
@@ -166,6 +172,7 @@
     "id": "8mm_casing",
     "category": "spare_parts",
     "price": "100 USD",
+    "price_postapoc": "1 USD",
     "name": { "str": "8mm Mauser casing" },
     "symbol": "=",
     "color": "yellow",
@@ -187,7 +194,7 @@
     "copy-from": "8mmMauser",
     "type": "AMMO",
     "name": { "str": "reloaded 8mm Mauser" },
-    "proportional": { "price": 0.7, "damage": { "damage_type": "bullet", "amount": 0.9 }, "dispersion": 1.1 },
+    "proportional": { "price": 0.7, "price_postapoc": 0.7, "damage": { "damage_type": "bullet", "amount": 0.9 }, "dispersion": 1.1 },
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
@@ -196,7 +203,7 @@
     "copy-from": ".303",
     "type": "AMMO",
     "name": { "str": "Match .303" },
-    "proportional": { "price": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
+    "proportional": { "price": 2, "price_postapoc": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
     "extend": { "effects": [ "RECYCLED", "NEVER_MISFIRES" ] }
   },
   {
@@ -206,6 +213,7 @@
     "name": { "str": ".50BMG - Explosive" },
     "//": "$30+/shot thanks to tight regulation, one way or another.",
     "price": "150 USD",
+    "price_postapoc": "10 USD",
     "description": "Easily capable of blowing apart light targets, this ammo is used as anti-materiel ammunition the world over.",
     "count": 5,
     "damage": { "damage_type": "bullet", "amount": 110, "armor_penetration": 12 },
@@ -217,7 +225,7 @@
     "type": "AMMO",
     "name": { "str": "Match 5.56 NATO" },
     "description": "A handloaded 5.56 NATO cartridge. Loaded for accuracy and damage, very well made - but quite expensive.",
-    "proportional": { "price": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
+    "proportional": { "price": 2, "price_postapoc": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
     "extend": { "effects": [ "RECYCLED", "NEVER_MISFIRES" ] }
   },
   {
@@ -226,7 +234,7 @@
     "type": "AMMO",
     "name": { "str": "Match .30-06" },
     "description": "A handloaded .30-06 cartridge. Loaded for accuracy and damage, very well made - but quite expensive.",
-    "proportional": { "price": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
+    "proportional": { "price": 2, "price_postapoc": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
     "extend": { "effects": [ "RECYCLED", "NEVER_MISFIRES" ] }
   },
   {
@@ -235,7 +243,7 @@
     "type": "AMMO",
     "name": { "str": "Match 7.62x39mm" },
     "description": "A handloaded 7.62x39mm cartridge. Loaded for accuracy and damage, very well made - but quite expensive. Based on the M87 loading.",
-    "proportional": { "price": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
+    "proportional": { "price": 2, "price_postapoc": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
     "extend": { "effects": [ "RECYCLED", "NEVER_MISFIRES" ] }
   },
   {
@@ -246,6 +254,7 @@
     "description": "A very quiet, very lightweight .22LR round meant for indoors practice without ear protection. The gun is louder than the ammunition. Handmade in the US of A.",
     "proportional": {
       "price": 2,
+      "price_postapoc": 2,
       "damage": { "damage_type": "bullet", "amount": 0.8 },
       "dispersion": 1.1,
       "range": 0.8,
@@ -260,7 +269,7 @@
     "type": "AMMO",
     "name": { "str": "Match 5.45x39" },
     "description": "A handloaded 5.45x39 cartridge. Loaded for accuracy and damage, very well made - but quite expensive.",
-    "proportional": { "price": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
+    "proportional": { "price": 2, "price_postapoc": 2, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
     "extend": { "effects": [ "RECYCLED", "NEVER_MISFIRES" ] }
   },
   {
@@ -269,7 +278,7 @@
     "type": "AMMO",
     "name": { "str": "Match 8mm Mauser" },
     "description": "A handloaded 8mm Mauser cartridge. Loaded for accuracy and damage, very well made - but quite expensive.",
-    "proportional": { "price": 1.9, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
+    "proportional": { "price": 1.9, "price_postapoc": 1.9, "damage": { "damage_type": "bullet", "amount": 1.1 }, "dispersion": 0.8 },
     "extend": { "effects": [ "RECYCLED", "NEVER_MISFIRES" ] }
   }
 ]

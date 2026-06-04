@@ -1,8 +1,8 @@
 [
   {
     "type": "item_group",
-    "id": "guns_pistol_common",
-    "//": "Pistols commonly owned by citizens and found in many locations.",
+    "id": "artyom_guns_pistol_common_bundle",
+    "//": "Artyom's common pistols bundled to preserve the parent group's nested structure.",
     "items": [
       [ "browning_hp", 60 ],
       [ "sig_p226", 50 ],
@@ -32,14 +32,7 @@
     "type": "item_group",
     "id": "guns_pistol_obscure",
     "//": "Imported or otherwise very obscure pistols.",
-    "items": [
-      [ "r51", 10 ],
-      [ "t17", 10 ],
-      [ "red9", 10 ],
-      [ "p08-45", 10 ],
-      [ "browning_hp_uk", 1 ],
-      [ "pedersen_device", 10 ]
-    ]
+    "items": [ [ "r51", 10 ], [ "t17", 10 ], [ "red9", 10 ], [ "p08-45", 10 ], [ "browning_hp_uk", 1 ], [ "pedersen_device", 10 ] ]
   },
   {
     "type": "item_group",
@@ -67,8 +60,8 @@
   },
   {
     "type": "item_group",
-    "id": "guns_rifle_common",
-    "//": "Rifles commonly owned by citizens and found in many locations.",
+    "id": "artyom_guns_rifle_common_bundle",
+    "//": "Artyom's common rifles bundled to preserve the parent group's nested structure.",
     "items": [
       [ "rem_model7600", 25 ],
       [ "m16a3", 18 ],
@@ -85,8 +78,8 @@
   },
   {
     "type": "item_group",
-    "id": "guns_rifle_milspec",
-    "//": "Military specification rifles only ever found at military sites.",
+    "id": "artyom_guns_rifle_milspec_bundle",
+    "//": "Artyom's military rifles bundled to preserve the parent group's nested structure.",
     "items": [
       [ "msbs", 55 ],
       [ "msbsb", 45 ],
@@ -110,8 +103,8 @@
   },
   {
     "type": "item_group",
-    "id": "guns_rifle_obscure",
-    "//": "Imported or otherwise very obscure rifles.",
+    "id": "artyom_guns_rifle_obscure_bundle",
+    "//": "Artyom's obscure rifles bundled to preserve the parent group's nested structure.",
     "items": [
       [ "ak47", 75 ],
       [ "ak101", 45 ],
@@ -138,116 +131,44 @@
   },
   {
     "type": "item_group",
-    "id": "guns_shotgun_common",
-    "//": "Shotguns commonly owned by citizens and found in many locations.",
+    "id": "guns_pistol_common",
+    "//": "Artyom additions are routed through a nested bundle to avoid flattening the vanilla group.",
+    "items": [ { "group": "artyom_guns_pistol_common_bundle", "prob": 135 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common",
+    "//": "Artyom additions are routed through a nested bundle to avoid flattening the vanilla group.",
+    "items": [ { "group": "artyom_guns_rifle_common_bundle", "prob": 125 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_milspec",
+    "//": "Artyom additions are routed through a nested bundle to avoid flattening the vanilla group.",
+    "items": [ { "group": "artyom_guns_rifle_milspec_bundle", "prob": 130 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_obscure",
+    "//": "Artyom additions are routed through a nested bundle to avoid flattening the vanilla group.",
+    "items": [ { "group": "artyom_guns_rifle_obscure_bundle", "prob": 130 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "artyom_guns_shotgun_common_bundle",
+    "//": "Artyom's common shotguns bundled to preserve the parent group's nested structure.",
     "items": [ [ "mossberg_590a1", 55 ], [ "ithacam37", 75 ] ]
   },
   {
     "type": "item_group",
-    "id": "guns_shotgun_rare",
-    "//": "Less common shotguns including those only used by police/paramilitary forces.",
+    "id": "artyom_guns_shotgun_rare_bundle",
+    "//": "Artyom's rare shotguns bundled to preserve the parent group's nested structure.",
     "items": [ [ "striker", 45 ], [ "auto_assault12", 35 ], [ "spas15", 15 ] ]
   },
   {
     "type": "item_group",
-    "id": "guns_common",
-    "//": "Guns of all types commonly owned by citizens and found in many locations.",
-    "items": [
-      { "group": "guns_pistol_common", "prob": 100 },
-      { "group": "guns_rifle_common", "prob": 20 },
-      { "group": "guns_smg_common", "prob": 5 },
-      { "group": "guns_shotgun_common", "prob": 40 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_rare",
-    "//": "Less common guns of all types including those only used by police/paramilitary forces.",
-    "items": [
-      { "group": "guns_pistol_rare", "prob": 100 },
-      { "group": "guns_smg_rare", "prob": 30 },
-      { "group": "guns_rifle_rare", "prob": 70 },
-      { "group": "guns_shotgun_rare", "prob": 70 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_milspec",
-    "//": "Military specification guns of all types.",
-    "items": [
-      { "group": "guns_pistol_milspec", "prob": 50 },
-      { "group": "guns_smg_milspec", "prob": 25 },
-      { "group": "guns_rifle_milspec", "prob": 100 },
-      { "group": "guns_shotgun_milspec", "prob": 25 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_obscure",
-    "//": "Imported or otherwise very obscure guns of all types.",
-    "items": [
-      { "group": "guns_pistol_obscure", "prob": 100 },
-      { "group": "guns_smg_obscure", "prob": 30 },
-      { "group": "guns_rifle_obscure", "prob": 70 },
-      { "group": "guns_shotgun_obscure", "prob": 30 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_improvised",
-    "//": "Makeshift or otherwise poor quality guns of all types.",
-    "items": [
-      { "group": "guns_pistol_improvised", "prob": 80 },
-      { "group": "guns_smg_improvised", "prob": 10 },
-      { "group": "guns_rifle_improvised", "prob": 100 },
-      { "group": "guns_shotgun_improvised", "prob": 100 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_cop",
-    "//": "Police issue weapons of all types",
-    "items": [
-      [ "mossberg_590a1", 25 ],
-      [ "ithacam37", 35 ],
-      [ "m16a1", 12 ],
-      [ "m16a2", 16 ],
-      [ "m16a3", 18 ],
-      [ "m16a4", 20 ],
-      [ "hk_g36c", 15 ],
-      [ "famas", 10 ],
-      [ "spas15", 8 ],
-      [ "fnminimi", 10 ],
-      [ "browning_hp", 10 ],
-      [ "cz_52", 5 ],
-      [ "cz_75", 10 ],
-      [ "cz_83", 15 ],
-      [ "fort12", 10 ],
-      [ "fn_fnp", 5 ],
-      [ "fn_fnx", 5 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_swat",
-    "//": "Guns issued to paramilitary forces in addition to standard police issue.",
-    "items": [
-      [ "psg1", 10 ],
-      [ "m16", 10 ],
-      [ "m16a1", 12 ],
-      [ "m16a2", 16 ],
-      [ "m16a3", 18 ],
-      [ "m16a4", 20 ],
-      [ "m110", 10 ],
-      [ "striker", 6 ],
-      [ "auto_assault12", 3 ],
-      [ "spas15", 8 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_survival",
-    "//": "Guns typically carried by survivors, either improvised or thematically appropriate.",
+    "id": "artyom_guns_survival_bundle",
+    "//": "Artyom's survivor-themed additions kept in a nested bundle to avoid flattening the parent group.",
     "items": [
       [ "homebrew_smg", 25 ],
       [ "ak101", 15 ],
@@ -276,6 +197,87 @@
       [ "needle_rifle", 10 ],
       [ "sig_p220", 15 ]
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "artyom_guns_cop_bundle",
+    "//": "Artyom's police-themed additions bundled to preserve the parent group's nested structure.",
+    "items": [
+      [ "mossberg_590a1", 25 ],
+      [ "ithacam37", 35 ],
+      [ "m16a1", 12 ],
+      [ "m16a2", 16 ],
+      [ "m16a3", 18 ],
+      [ "m16a4", 20 ],
+      [ "hk_g36c", 15 ],
+      [ "famas", 10 ],
+      [ "spas15", 8 ],
+      [ "fnminimi", 10 ],
+      [ "browning_hp", 10 ],
+      [ "cz_52", 5 ],
+      [ "cz_75", 10 ],
+      [ "cz_83", 15 ],
+      [ "fort12", 10 ],
+      [ "fn_fnp", 5 ],
+      [ "fn_fnx", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "artyom_guns_swat_bundle",
+    "//": "Artyom's SWAT-themed additions bundled to preserve the parent group's nested structure.",
+    "items": [
+      [ "psg1", 10 ],
+      [ "m16", 10 ],
+      [ "m16a1", 12 ],
+      [ "m16a2", 16 ],
+      [ "m16a3", 18 ],
+      [ "m16a4", 20 ],
+      [ "m110", 10 ],
+      [ "striker", 6 ],
+      [ "auto_assault12", 3 ],
+      [ "spas15", 8 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_obscure",
+    "//": "Imported or otherwise very obscure guns of all types.",
+    "items": [
+      { "group": "guns_pistol_obscure", "prob": 100 },
+      { "group": "guns_smg_obscure", "prob": 30 },
+      { "group": "guns_rifle_obscure", "prob": 70 },
+      { "group": "guns_shotgun_obscure", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_improvised",
+    "//": "Makeshift or otherwise poor quality guns of all types.",
+    "items": [
+      { "group": "guns_pistol_improvised", "prob": 80 },
+      { "group": "guns_smg_improvised", "prob": 10 },
+      { "group": "guns_rifle_improvised", "prob": 100 },
+      { "group": "guns_shotgun_improvised", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_survival",
+    "//": "Guns typically carried by survivors, either improvised or thematically appropriate.",
+    "items": [ { "group": "artyom_guns_survival_bundle", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_cop",
+    "//": "Police issue weapons of all types",
+    "items": [ { "group": "artyom_guns_cop_bundle", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_swat",
+    "//": "Guns issued to paramilitary forces in addition to standard police issue.",
+    "items": [ { "group": "artyom_guns_swat_bundle", "prob": 75 } ]
   },
   {
     "type": "item_group",
@@ -323,13 +325,7 @@
     "type": "item_group",
     "id": "mags_pistol_rare",
     "//": "Aftermarket or otherwise uncommon pistol magazines excluding milspec.",
-    "items": [
-      [ "stripperclip_45", 30 ],
-      [ "stripperclip_9", 50 ],
-      [ "p08_45mag", 20 ],
-      [ "460mag", 35 ],
-      [ "460mag2", 25 ]
-    ]
+    "items": [ [ "stripperclip_45", 30 ], [ "stripperclip_9", 50 ], [ "p08_45mag", 20 ], [ "460mag", 35 ], [ "460mag2", 25 ] ]
   },
   {
     "type": "item_group",
@@ -379,8 +375,8 @@
   },
   {
     "type": "item_group",
-    "id": "ammo_rifle_common",
-    "//": "Rifle ammo commonly owned by citizens and found in many locations.",
+    "id": "artyom_ammo_rifle_common_bundle",
+    "//": "Artyom's rifle ammo additions bundled to preserve the parent group's distribution balance.",
     "items": [
       [ "Match_7.92mm", 10 ],
       [ ".303", 30 ],
@@ -392,5 +388,24 @@
       [ "reloaded_762ak_match", 5 ],
       [ "8mmMauser", 50 ]
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_common",
+    "//": "Artyom additions are routed through a nested bundle to avoid flattening the vanilla group.",
+    "items": [ { "group": "artyom_guns_shotgun_common_bundle", "prob": 30 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_rare",
+    "//": "Artyom additions are routed through a nested bundle to avoid flattening the vanilla group.",
+    "items": [ { "group": "artyom_guns_shotgun_rare_bundle", "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_rifle_common",
+    "//": "Artyom additions are routed through a nested bundle to avoid flattening the vanilla group.",
+    "subtype": "distribution",
+    "entries": [ { "group": "artyom_ammo_rifle_common_bundle", "prob": 100 } ]
   }
 ]

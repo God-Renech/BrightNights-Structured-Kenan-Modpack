@@ -15,6 +15,7 @@
     "volume": "750 ml",
     "bashing": 3,
     "price": "480 USD",
+    "price_postapoc": "22 USD",
     "install_time": "1 m",
     "loudness_modifier": -130
   },
@@ -34,6 +35,7 @@
     "mod_target_category": [ [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ], [ "M_XBOWS" ], [ "GRENADE_LAUNCHERS" ], [ "ROCKET_LAUNCHERS" ] ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 6 ] ]
   },
@@ -62,6 +64,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -92,6 +95,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -122,6 +126,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -141,6 +146,7 @@
     "mod_target_category": [ [ "PISTOLS" ], [ "SUBMACHINE_GUNS" ], [ "SHOTGUNS" ] ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "20 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -171,6 +177,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -201,6 +208,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -231,6 +239,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -259,6 +268,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -287,6 +297,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -315,6 +326,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -343,6 +355,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -371,6 +384,7 @@
     ],
     "volume": "500 ml",
     "price": "680 USD",
+    "price_postapoc": "30 USD",
     "install_time": "30 m",
     "min_skills": [ [ "gun", 5 ] ]
   },
@@ -383,6 +397,7 @@
     "volume": "250 ml",
     "integral_volume": "0 ml",
     "price": "480 USD",
+    "price_postapoc": "22 USD",
     "install_time": "20 m",
     "material": [ "steel" ],
     "symbol": ":",
@@ -403,6 +418,7 @@
     "weight": "380 g",
     "volume": "250 ml",
     "price": "840 USD",
+    "price_postapoc": "36 USD",
     "install_time": "5 m",
     "material": [ "steel" ],
     "symbol": ":",
@@ -420,6 +436,7 @@
     "name": { "str": "Artyom's Custom .460 Rowland Conversion Kit", "str_pl": "Artyom's Custom .460 Rowland Conversion Kits" },
     "description": "A conversion kit for the M1911 to make it shoot .460 Rowland. Dissemble it to get the stuff you need!",
     "price": "180 USD",
+    "price_postapoc": "10 USD",
     "material": [ "steel" ],
     "weight": "1084 g",
     "volume": "1 L",
@@ -436,6 +453,7 @@
     "name": { "str": "GP-25", "str_pl": "GP-25" },
     "description": "A Russian grenade launcher compatible with Warsaw pact weapons. But this one is a recreation of the GP-25 that fits Warsaw AND NATO weapons. And fires the 40mm used by the M203.",
     "price": "840 USD",
+    "price_postapoc": "36 USD",
     "install_time": "15 m",
     "material": [ "steel" ],
     "gun_data": {
@@ -465,6 +483,7 @@
     "name": { "str": "GP-30", "str_pl": "GP-30" },
     "description": "A Russian grenade launcher compatible with Warsaw pact weapons. But this one is a recreation of the GP-30 that fits Warsaw AND NATO weapons. And fires the 40mm used by the M203. A more accurate version of the GP-25",
     "price": "840 USD",
+    "price_postapoc": "36 USD",
     "install_time": "15 m",
     "material": [ "steel" ],
     "gun_data": {
@@ -494,6 +513,7 @@
     "name": { "str": "BG-15", "str_pl": "BG-15" },
     "description": "A Russian grenade launcher compatible with Warsaw pact weapons. But this one is a recreation of the BG-15 that fits Warsaw AND NATO weapons. And fires the 40mm used by the M203. The first of the Russian launchers.",
     "price": "840 USD",
+    "price_postapoc": "36 USD",
     "install_time": "15 m",
     "material": [ "steel" ],
     "gun_data": {
@@ -524,6 +544,7 @@
     "to_hit": -1,
     "dispersion_modifier": 10,
     "price": "650 USD",
+    "price_postapoc": "28 USD",
     "install_time": "30 m",
     "description": "A modification meant for the space gun.",
     "symbol": ":",
@@ -552,6 +573,7 @@
     "name": { "str": "Grunt's Big Boys", "str_pl": "Grunt's Big Boys" },
     "description": "This peculiar set-up of two M203 launchers duck-taped to the sides of the Grunt makes it look ridiculous. But in practice, the soldier who made this becomes a one-man mortar team. Slinging massive explosive rounds down range onto unsuspecting zombies and whatnot. A genius of a modification",
     "price": "840 USD",
+    "price_postapoc": "36 USD",
     "install_time": "15 m",
     "material": [ "steel" ],
     "gun_data": {
@@ -581,6 +603,7 @@
     "volume": "250 ml",
     "integral_volume": "0 ml",
     "price": "320 USD",
+    "price_postapoc": "16 USD",
     "material": [ "steel" ],
     "symbol": ":",
     "color": "dark_gray",
@@ -609,6 +632,7 @@
     "volume": "500 ml",
     "integral_volume": "0 ml",
     "price": "520 USD",
+    "price_postapoc": "28 USD",
     "material": [ "steel" ],
     "symbol": ":",
     "color": "brown",
