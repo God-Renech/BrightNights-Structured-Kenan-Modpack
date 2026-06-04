@@ -15,6 +15,7 @@
     "cutting": 75,
     "to_hit": 3,
     "price": "500 USD",
+    "price_postapoc": "25 USD",
     "material": [ "nanite" ],
     "flags": [ "TRADER_AVOID", "SHEATH_KNIFE" ],
     "qualities": [ [ "CUT", 3 ], [ "BUTCHER", 20 ] ]
@@ -35,6 +36,7 @@
     "cutting": 45,
     "to_hit": 3,
     "price": "500 USD",
+    "price_postapoc": "20 USD",
     "material": [ "nanite" ],
     "flags": [ "STAB", "UNARMED_WEAPON", "TRADER_AVOID", "SHEATH_KNIFE" ],
     "qualities": [ [ "CUT", 4 ], [ "CUT_FINE", 7 ], [ "BUTCHER", 80 ] ]
@@ -56,6 +58,7 @@
     "bashing": 45,
     "to_hit": 3,
     "price": "500 USD",
+    "price_postapoc": "30 USD",
     "material": [ "nanite" ],
     "flags": [ "DURABLE_MELEE", "TRADER_AVOID", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_SPEAR", "STAB", "REACH_ATTACK", "REACH3", "MESSY" ]
   },
@@ -67,6 +70,7 @@
     "symbol": "(",
     "color": "light_gray",
     "price": "5000 USD",
+    "price_postapoc": "70 USD",
     "material": [ "nanite" ],
     "ammo": [ "nanite_ammo" ],
     "flags": [ "NEVER_JAMS", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
@@ -119,6 +123,7 @@
     "looks_like": "needlepistol",
     "weight": "1096 g",
     "price": "2500 USD",
+    "price_postapoc": "35 USD",
     "skill": "pistol",
     "volume": "1 L",
     "ranged_damage": { "damage_type": "bullet", "amount": 1 },
@@ -156,6 +161,7 @@
     "looks_like": "rm360_carbine",
     "weight": "1992 g",
     "price": "3750 USD",
+    "price_postapoc": "45 USD",
     "skill": "smg",
     "volume": "1500 ml",
     "ranged_damage": { "damage_type": "bullet", "amount": 4 },

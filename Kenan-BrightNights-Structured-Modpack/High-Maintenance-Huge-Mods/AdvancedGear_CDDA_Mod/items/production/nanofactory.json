@@ -91,12 +91,6 @@
     "effects": [ "NEVER_MISFIRES" ]
   },
   {
-    "type": "ammunition_type",
-    "id": "3d_resin",
-    "name": "3D printer stock",
-    "default": "3d_resin"
-  },
-  {
     "id": "nanofactory_1",
     "type": "TOOL",
     "symbol": ";",
@@ -213,6 +207,7 @@
     "description": "Uses internal nanites to reassemble feedstock into products at high speed and efficiency.",
     "looks_like": "weldrig",
     "price": "4800 USD",
+    "price_postapoc": "80 USD",
     "material": [ "nanite" ],
     "weight": "300000 g",
     "volume": "160 L",
@@ -231,6 +226,7 @@
     "description": "A small terminal that interfaces with nearby nanites to upload preconfigured programs to them.",
     "looks_like": "control_laptop",
     "price": "4800 USD",
+    "price_postapoc": "80 USD",
     "material": [ "nanite" ],
     "weight": "100 g",
     "volume": "1 L",
@@ -265,6 +261,7 @@
     "description": "Controls nanites to reassemble feedstock into products at high speed and efficiency, contains a minor AI to assist with programming.",
     "looks_like": "control_laptop",
     "price": "9600 USD",
+    "price_postapoc": "120 USD",
     "material": [ "nanite" ],
     "weight": "1000 g",
     "volume": "4 L",
@@ -299,6 +296,7 @@
     "description": "Controls nanites to reassemble feedstock into products at high speed and efficiency, contains an advanced AI, and is capable of any nanofabrication currently developed.",
     "looks_like": "two_way_radio",
     "price": "19200 USD",
+    "price_postapoc": "180 USD",
     "material": [ "nanite" ],
     "weight": "200 g",
     "volume": "1500 ml",

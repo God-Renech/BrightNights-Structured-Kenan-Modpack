@@ -14,7 +14,8 @@
     "volume" : "15 L",
     "bashing" : 20,
     "category" : "veh_parts",
-    "price" : "55 USD"
+    "price" : "55 USD",
+    "price_postapoc" : "8 USD"
   },
   {
     "id": "advancedgear_nanites",	  

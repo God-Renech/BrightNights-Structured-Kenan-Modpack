@@ -8,6 +8,7 @@
     "symbol": "(",
     "color": "light_gray",
     "price": "5000 USD",
+    "price_postapoc": "70 USD",
     "material": "nanite",
     "ammo": "metal_nanopowder",
     "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN", "MOUNTED_GUN" ],
@@ -26,6 +27,7 @@
     "symbol": "(",
     "color": "light_gray",
     "price": "5000 USD",
+    "price_postapoc": "60 USD",
     "material": "nanite",
     "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ],
     "volume": "250 ml",
@@ -113,6 +115,7 @@
     "looks_like": "nano_turret_smg",
     "weight": "4523 g",
     "price": "3750 USD",
+    "price_postapoc": "45 USD",
     "volume": "1500 ml",
     "use_action": [
       {
@@ -166,6 +169,7 @@
     "looks_like": "needlepistol",
     "weight": "3627 g",
     "price": "2500 USD",
+    "price_postapoc": "35 USD",
     "skill": "pistol",
     "volume": "1 L",
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
@@ -223,6 +227,7 @@
     "looks_like": "rm360_carbine",
     "weight": "4523 g",
     "price": "3750 USD",
+    "price_postapoc": "45 USD",
     "skill": "smg",
     "volume": "1500 ml",
     "ranged_damage": { "damage_type": "bullet", "amount": 8 },
@@ -258,7 +263,8 @@
     "cutting" : 0,
     "category" : "veh_parts",
     "flags": ["UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID"],
-    "price" : "6000 USD"
+    "price" : "6000 USD",
+    "price_postapoc" : "45 USD"
   },{
     "type":"GENERIC",
     "id" : "xl_nanite_ai",
@@ -275,7 +281,8 @@
     "cutting" : 0,
     "category" : "veh_parts",
     "flags": ["UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID"],
-    "price" : "6000 USD"
+    "price" : "6000 USD",
+    "price_postapoc" : "60 USD"
   },{
     "type":"GENERIC",
     "id" : "nanotech_generator",
@@ -302,6 +309,7 @@
     "weight": "3600 g",
     "volume": "1500 ml",
     "price" : "6000 USD",
+    "price_postapoc" : "50 USD",
     "material": [ "nanite" ],
     "symbol": ":",
     "color": "light_cyan",
@@ -317,6 +325,7 @@
     "weight": "1469 g",
     "volume": "6250 ml",
     "price": "755 USD",
+    "price_postapoc": "18 USD",
     "to_hit": -3,
     "bashing": 30,
     "material": [ "nanite" ],
