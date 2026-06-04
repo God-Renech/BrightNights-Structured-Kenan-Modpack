@@ -204,11 +204,11 @@
     "flags": [ "MAG_BULKY" ]
   },
   {
-    "id": "belt50R",
+    "id": "belt50R_1",
     "looks_like": "stanag30",
     "copy-from": "magazine_belt",
     "type": "MAGAZINE",
-    "name": { "str": "12.7x108mm ammo belt" },
+    "name": { "str": "12.7x108mm ammo belt plus" },
     "ammo_type": [ "50R" ],
     "capacity": 100,
     "count": 100,

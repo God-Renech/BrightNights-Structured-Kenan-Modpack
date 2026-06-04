@@ -18,6 +18,7 @@
         "fun" : -5,
         "skill" : "electronics",
         "price" : "350 USD",
+        "price_postapoc" : "18 USD",
         "required_level" : 6
     },
     {
@@ -39,6 +40,7 @@
         "fun" : -5,
         "skill" : "fabrication",
         "price" : "350 USD",
+        "price_postapoc" : "18 USD",
         "required_level" : 4
     },
     {
@@ -60,6 +62,7 @@
         "fun" : -10,
         "skill" : "electronics",
         "price" : "350 USD",
+        "price_postapoc" : "20 USD",
         "required_level" : 7
     },
     {
@@ -81,6 +84,7 @@
         "fun" : -10,
         "skill" : "mechanics",
         "price" : "250 USD",
+        "price_postapoc" : "14 USD",
         "required_level" : 5
     }
 ]

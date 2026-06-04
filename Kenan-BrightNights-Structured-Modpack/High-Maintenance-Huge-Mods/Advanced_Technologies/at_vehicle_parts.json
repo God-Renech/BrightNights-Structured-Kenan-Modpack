@@ -234,7 +234,7 @@
     "damage_reduction": { "all": 95 }
   },
   {
-    "id": "mechleg_mount_heavy_steerable",
+    "id": "mechleg_mount_jumbo_steerable",
     "copy-from": "mechleg_mount_jumbo",
     "type": "vehicle_part",
     "name": { "str": "jumbo leg hub assembly (steerable)" },

@@ -7,6 +7,7 @@
     "name": { "str": "inactive sniper joe" },
     "description": "This is an inactive Sniper Joe. Sniper Joes are advanced robots capable of combat and have substantial armor.",
     "price": "30000 USD",
+    "price_postapoc": "140 USD",
     "material": ["steel", "superalloy"],
     "weight": "150000 g",
     "volume": "19500 ml",
