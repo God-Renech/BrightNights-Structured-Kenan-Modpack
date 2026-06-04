@@ -21,7 +21,7 @@
     "type": "item_group",
     "id": "guns_shotgun_milspec",
     "//": "Military specification SMGs only ever found at military sites.",
-    "items": [ [ "ABlaser_sniper", 50 ] ]
+    "items": [ [ "ABlaser_shotgun", 50 ] ]
   },
   {
     "type": "item_group",
