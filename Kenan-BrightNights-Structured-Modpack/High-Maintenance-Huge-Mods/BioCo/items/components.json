@@ -1,22 +1,5 @@
 [
   {
-    "copy-from": "e_scrap",
-    "id": "Autonmous_Machine_Parts",
-    "name": { "str": "Autonmous Machine Part" },
-    "description": "A bundle of components essential in any advance crafting machine.",
-    "type": "GENERIC",
-    "weight": "50000 g",
-    "volume": "60 L"
-  },
-  {
-    "copy-from": "processor",
-    "id": "BioCo_AutoDoc_Core",
-    "type": "GENERIC",
-    "description": "A large processing unit on an electric board. An essential component to BioCo machines.",
-    "weight": "1000 g",
-    "name": { "str": "BioCo AutoDoc Core" }
-  },
-  {
     "copy-from": "burnt_out_bionic",
     "id": "Pristine_Bionic_Components",
     "name": { "str": "Pristine Bionic Components" },
@@ -37,6 +20,7 @@
     "healthy": -50,
     "description": "A very thin, purple concoction of various chemicals, used by BioCo Chemical Engines.",
     "price": "100 USD",
+    "price_postapoc": "8 USD",
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 1,
@@ -48,13 +32,17 @@
     "copy-from": "BioCo_Crude_Chemical_Precursor",
     "id": "BioCo_Chemical_Precursor",
     "name": { "str": "BioCo Chemical Precursor", "str_pl": "BioCo Chemical Precursors" },
-    "description": "A blue concoction of various chemicals, used by BioCo Chemical Engines."
+    "description": "A blue concoction of various chemicals, used by BioCo Chemical Engines.",
+    "price": "125 USD",
+    "price_postapoc": "10 USD"
   },
   {
     "type": "COMESTIBLE",
     "copy-from": "BioCo_Crude_Chemical_Precursor",
     "id": "BioCo_Fine_Chemical_Precursor",
     "name": { "str": "BioCo Fine Chemical Precursor", "str_pl": "BioCo Fine Chemical Precursors" },
-    "description": "A slightly shimmering green concoction of various chemicals, used by BioCo Chemical Engines."
+    "description": "A slightly shimmering green concoction of various chemicals, used by BioCo Chemical Engines.",
+    "price": "150 USD",
+    "price_postapoc": "12 USD"
   }
 ]
