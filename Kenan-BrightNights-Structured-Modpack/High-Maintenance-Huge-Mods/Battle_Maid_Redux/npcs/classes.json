@@ -1,5 +1,16 @@
 [
   {
+    "type": "trait_group",
+    "id": "Battle_Maid_Redux_Hair_Color_Long_Color",
+    "subtype": "distribution",
+    "traits": [
+      { "trait": "hair_black", "prob": 50 },
+      { "trait": "hair_red", "prob": 25 },
+      { "trait": "hair_blond", "prob": 25 },
+      { "trait": "hair_brown", "prob": 25 }
+    ]
+  },
+  {
     "type": "npc_class",
     "id": "NC_SHOGGOTH_MAID",
     "name": { "str": "shoggoth maid" },
@@ -20,10 +31,8 @@
       [ "SHOGGOTH_BODY_NPC", 100 ],
       [ "NOPAIN", 100 ],
       [ "INFRESIST", 100 ],
-      [ "hair_black_long", 50 ],
-      [ "hair_red_long", 25 ],
-      [ "hair_blond_long", 25 ],
-      [ "hair_brown_long", 25 ],
+      { "group": "Battle_Maid_Redux_Hair_Color_Long_Color", "prob": 100 },
+      [ "hair_long", 100 ],
       [ "MAID_RESTRICT", 100 ],
       [ "PRETTY", 100 ]
     ],
@@ -51,10 +60,8 @@
       [ "THRESH_MILK", 100 ],
       [ "MILK_PRECURSOR", 100 ],
       [ "futanari", 50 ],
-      [ "hair_black_long", 50 ],
-      [ "hair_red_long", 25 ],
-      [ "hair_blond_long", 25 ],
-      [ "hair_brown_long", 25 ],
+      { "group": "Battle_Maid_Redux_Hair_Color_Long_Color", "prob": 100 },
+      [ "hair_long", 100 ],
       [ "PRETTY", 100 ]
     ],
     "worn_override": "NC_MAID_worn",

@@ -31,6 +31,7 @@
     "symbol": "-",
     "color": "dark_gray",
     "price": "50 USD",
+    "price_postapoc": "8 USD",
     "volume": "150 ml",
     "category": "tools"
   }
